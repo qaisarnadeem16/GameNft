@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="hero w-full h-full">
                 <div className="flex flex-col-reverse md:flex-row items-center gap-5">
                     <div className="md:w-1/2 w-full md:p-5 p-3">
-                        <div className="flex flex-col gap-5 justify-center items-center">
+                        <div className="flex flex-col gap-7 justify-center items-center">
                             <div className="box  py-3 px-5 ">
                                 <h1 className="text-white text-3xl text-center font-black ">ABOUT</h1>
 
