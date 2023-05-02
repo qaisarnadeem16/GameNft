@@ -1,10 +1,12 @@
 import React from 'react'
 import topimg from '../assets/new1.png'
+import Navbar from './navbar/Navbar'
 
 const Hero = () => {
     return (
         <>
             <div className="hero w-full h-full">
+                <Navbar/>
                 <div className="flex flex-col-reverse md:flex-row items-center md:gap-12 gap-6 md:p-28 p-0">
                     <div className="md:w-1/2 w-full md:p-5 p-3">
                         <div className="flex flex-col gap-7 justify-center items-center">

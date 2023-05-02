@@ -64,7 +64,7 @@ const SliderNFT = () => {
         <>
             <div className="slider px-4 ">
                 <div className="flex justify-center p-7">
-                    <div className="bg-black rounded-lg shadow p-3 opacity-90 ">
+                    <div className="bg-gray-700 rounded-lg shadow p-3 opacity-90 ">
                         <h1 className="text-white text-3xl text-center font-black ">CHARECTOR</h1>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const SliderNFT = () => {
                                 <img src={nft1} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
-                                <div className="py-4"><h2 className="text-white text-xl font-bold text-center p-2 ">WIZO: RARE PLAYER</h2></div>
+                                <div className="py-4 flex justify-center"><h2 className="text-white bg-gray-800 rounded-md px-2 shadow text-xl font-bold text-center p-2 ">WIZO: RARE PLAYER</h2></div>
                                 <div className="bg-gray-800 rounded-[1rem] shadow opacity-100">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
@@ -102,7 +102,7 @@ const SliderNFT = () => {
                                 <img src={nft2} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
-                                <div className="py-4"><h2 className="text-white text-xl font-bold text-center p-2 ">Blitz Boo : Medium Player</h2></div>
+                                <div className="py-4 flex justify-center"><h2 className="text-white bg-gray-800 rounded-md px-2 shadow text-xl font-bold text-center p-2 ">Blitz Boo : Medium Player</h2></div>
                                 <div className="bg-gray-800 rounded-[1rem] shadow ">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
@@ -127,7 +127,7 @@ const SliderNFT = () => {
                                 <img src={nft3} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
-                                <div className="py-4"><h2 className="text-white text-lg font-bold text-center p-2 ">FLORAL LEO : Legendary Player</h2></div>
+                                <div className="py-4 flex justify-center"><h2 className="text-white bg-gray-800 rounded-md px-2 shadow text-lg font-bold text-center p-2 ">FLORAL LEO : Legendary Player</h2></div>
                                 <div className="bg-gray-800 rounded-[1rem] shadow">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
@@ -147,25 +147,25 @@ const SliderNFT = () => {
                     </div>
 
 
-                    
+
                     <div>
                         <div className='md:mx-6 '>
                             <div className="rounded-md shadow w-full h-[320px] overflow-hidden">
                                 <img src={nft4} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
-                                <div className="py-4"><h2 className="text-white text-xl font-bold text-center p-2 ">Jellite killi : MYTHIC PLAYER</h2></div>
+                                <div className="py-4 flex justify-center"><h2 className="text-white bg-gray-800 rounded-md px-2 shadow text-lg font-bold text-center p-2 ">Jellite killi : MYTHIC PLAYER</h2></div>
                                 <div className="bg-gray-800 rounded-[1rem] shadow ">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
-                                    DRAG To ANYONE - HIGHLY Dedicated to drag any enemy using magical power, THIS CHARECTOR HAVE LOTS OF POWERS LIKE DRAGING, which is used to kill the monster in Metaverse game.
+                                        DRAG To ANYONE - HIGHLY Dedicated to drag any enemy using magical power, THIS CHARECTOR HAVE LOTS OF POWERS LIKE DRAGING, which is used to kill the monster in Metaverse game.
                                     </p>
                                 </div>
 
                                 <div className="bg-gray-800 rounded-[1rem] mt-7 shadow">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                     <p className="p-3 text-white">
-                                    DRAGING: This Charector Is Highly Dedicated With powering in DRAGING, He can catch anyone by the long
+                                        DRAGING: This Charector Is Highly Dedicated With powering in DRAGING, He can catch anyone by the long
                                     </p>
                                 </div>
                             </div>
