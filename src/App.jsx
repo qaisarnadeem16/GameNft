@@ -2,6 +2,10 @@ import Hero from "./components/Hero";
 import SliderNFT from "./components/SliderNFT";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import SliderGame from "./components/SliderGame";
+import WhatGame from "./components/WhatGame";
+import Tokens from "./components/Tokens";
+import Roadmap from "./components/Roadmap";
 
 
 
@@ -12,6 +16,10 @@ function App() {
     <>
       <Hero />
       <SliderNFT />
+      <SliderGame/>
+      <WhatGame/>
+      <Tokens/>
+      <Roadmap/>
     </>
 
   );

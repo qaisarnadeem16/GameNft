@@ -16,9 +16,12 @@ const Navbar = () => {
         
       </div>
       <div className="gpt3__navbar-links_container">
-          <p><a href="#home">Home</a></p>
-          <p><a href="#home">About</a></p>
-          <p><a href="#home">Contact</a></p>
+      <p><a href="#about">ABOUT</a></p>
+              <p><a href="#char">CHARECTOR </a></p>
+              <p><a href="#game">GAMEPLAY</a></p>
+              <p><a href="#what">WHAT IN GAME</a></p>
+              <p><a href="#token">UTILITY OF TOKENS</a></p>
+              <p><a href="#roadmap">ROADMAP</a></p>
 
         </div>
       <div className="gpt3__navbar-menu">
@@ -28,14 +31,14 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center bg-gray-500 shadow z-10">
             <div className="gpt3__navbar-menu_container-links">
-              <p><a href="#home">Home</a></p>
-              <p><a href="#home">About</a></p>
-              <p><a href="#home">Contact</a></p>
+              <p><a href="#about">ABOUT</a></p>
+              <p><a href="#char">CHARECTOR </a></p>
+              <p><a href="#game">GAMEPLAY</a></p>
+              <p><a href="#what">WHAT IN GAME</a></p>
+              <p><a href="#token">UTILITY OF TOKENS</a></p>
+              <p><a href="#roadmap">ROADMAP</a></p>
             </div>
-            {/* <div className="gpt3__navbar-menu_container-links-sign">
-              <p>Sign in</p>
-              <button type="button">Sign up</button>
-            </div> */}
+          
           </div>
         )}
       </div>

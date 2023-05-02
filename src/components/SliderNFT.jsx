@@ -62,9 +62,9 @@ const SliderNFT = () => {
     };
     return (
         <>
-            <div className="slider px-4 ">
+            <div className="slider px-4 " id='char'>
                 <div className="flex justify-center p-7">
-                    <div className="bg-gray-700 rounded-lg shadow p-3 opacity-90 ">
+                    <div className="bg-gray-700 rounded-lg   opacity-90 main-div main-div1">
                         <h1 className="text-white text-3xl text-center font-black ">CHARECTOR</h1>
                     </div>
                 </div>
