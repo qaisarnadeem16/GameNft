@@ -62,30 +62,30 @@ const SliderNFT = () => {
     };
     return (
         <>
-            <div className="slider px-5 ">
+            <div className="slider px-4 ">
                 <div className="flex justify-center p-7">
-                    <div className="box  py-3 px-5 ">
-                        <h1 className="text-white text-3xl text-center font-black ">CREATORS</h1>
+                    <div className="bg-black rounded-lg shadow p-3 opacity-90 ">
+                        <h1 className="text-white text-3xl text-center font-black ">CHARECTOR</h1>
                     </div>
                 </div>
 
                 <Slider {...settings}>
                     <div>
                         <div className='md:mx-6 '>
-                            <div className="rounded-md border-4 border-[rgba(0,255,255,0.5)] w-full h-[320px] overflow-hidden">
+                            <div className="rounded-md  shadow w-full h-[320px] overflow-hidden">
 
                                 <img src={nft1} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
                                 <div className="py-4"><h2 className="text-white text-xl font-bold text-center p-2 ">WIZO: RARE PLAYER</h2></div>
-                                <div className="bg-gray-800 rounded-[1rem] ">
+                                <div className="bg-gray-800 rounded-[1rem] shadow opacity-100">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
                                         LEGS COMBOT - HIHGLY STRONG ON LEGS POWER , ABLE TO USE IN BLOCKING , AND INCREDIBLE ATTACK TO ENEMY
                                     </p>
                                 </div>
 
-                                <div className="bg-gray-800 rounded-[1rem] mt-3 ">
+                                <div className="bg-gray-800 rounded-[1rem] mt-7 shadow">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                     <p className="p-3 text-white">
                                         POWER ON LEGS - This Character is highly skilled With Legs and powerenergy on legs
@@ -97,20 +97,20 @@ const SliderNFT = () => {
 
 
                     <div>
-                        <div className='md:mx-6 '>
-                            <div className="rounded-md border-4 border-[rgba(0,255,255,0.5)] w-full h-[320px] overflow-hidden">
+                        <div className='md:mx-6 mx-2'>
+                            <div className="rounded-md shadow w-full h-[320px] overflow-hidden">
                                 <img src={nft2} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
                                 <div className="py-4"><h2 className="text-white text-xl font-bold text-center p-2 ">Blitz Boo : Medium Player</h2></div>
-                                <div className="bg-gray-800 rounded-[1rem] ">
+                                <div className="bg-gray-800 rounded-[1rem] shadow ">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
                                         Power Fighter - HIGHLY STRONG ON POWERS, THIS CHARECTOR HAVE LOTS OF POWERS LIKE STNERGITIC POWER WHICH IS BLAST TO ANYONE
                                     </p>
                                 </div>
 
-                                <div className="bg-gray-800 rounded-[1rem] mt-3 ">
+                                <div className="bg-gray-800 rounded-[1rem] mt-7 shadow ">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                     <p className="p-3 text-white">
                                         DIFFERENT TYPES OF POWERS: This Charector Is Highly Dedicated With Lots of powering, He Can
@@ -123,19 +123,19 @@ const SliderNFT = () => {
 
                     <div>
                         <div className='md:mx-6 '>
-                            <div className="rounded-md border-4 border-[rgba(0,255,255,0.5)] w-full h-[320px] overflow-hidden">
+                            <div className="rounded-md shadow w-full h-[320px] overflow-hidden">
                                 <img src={nft3} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
                                 <div className="py-4"><h2 className="text-white text-lg font-bold text-center p-2 ">FLORAL LEO : Legendary Player</h2></div>
-                                <div className="bg-gray-800 rounded-[1rem] ">
+                                <div className="bg-gray-800 rounded-[1rem] shadow">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
                                         FLYING BOOSTER - HIGHLY STRONG ON WINGS POWER, THIS CHARECTOR HAVE LOTS OF WINGS POWERS LIKE FLYING, MOUTH FIRE, WHICH IS BURNED TO ANYTHING
                                     </p>
                                 </div>
 
-                                <div className="bg-gray-800 rounded-[1rem] mt-3 ">
+                                <div className="bg-gray-800 rounded-[1rem] mt-7 shadow ">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                     <p className="p-3 text-white">
                                         POWERS IN WINGS: This Charector Is Highly Dedicated With Lots of powering in wings, He Can
@@ -150,19 +150,19 @@ const SliderNFT = () => {
                     
                     <div>
                         <div className='md:mx-6 '>
-                            <div className="rounded-md border-4 border-[rgba(0,255,255,0.5)] w-full h-[320px] overflow-hidden">
+                            <div className="rounded-md shadow w-full h-[320px] overflow-hidden">
                                 <img src={nft4} alt='' width='100%' height='100px' />
                             </div>
                             <div className="text">
                                 <div className="py-4"><h2 className="text-white text-xl font-bold text-center p-2 ">Jellite killi : MYTHIC PLAYER</h2></div>
-                                <div className="bg-gray-800 rounded-[1rem] ">
+                                <div className="bg-gray-800 rounded-[1rem] shadow ">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                     <p className="p-3 text-white">
                                     DRAG To ANYONE - HIGHLY Dedicated to drag any enemy using magical power, THIS CHARECTOR HAVE LOTS OF POWERS LIKE DRAGING, which is used to kill the monster in Metaverse game.
                                     </p>
                                 </div>
 
-                                <div className="bg-gray-800 rounded-[1rem] mt-3 ">
+                                <div className="bg-gray-800 rounded-[1rem] mt-7 shadow">
                                     <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                     <p className="p-3 text-white">
                                     DRAGING: This Charector Is Highly Dedicated With powering in DRAGING, He can catch anyone by the long

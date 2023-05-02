@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
 
                     <div className="md:w-1/2 w-full ">
-                        <div className="header-image">
+                        <div className="header-image ">
                             <img src={topimg} alt='' />
                         </div>
                     </div>
