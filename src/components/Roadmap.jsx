@@ -171,8 +171,7 @@ const Roadmap = () => {
                             </li>
                             <li className="flex gap-10 items-center ">
                                 <BsPatchCheckFill className='text-4xl text-green-700 ' />
-
-
+                                {/* <BsPatchCheckFill className='text-4xl text-green-700 ' /> */}
                                 <h5 className="text-white text-lg font-bold text-center">CREATE NFTS  </h5>
                             </li>
 
