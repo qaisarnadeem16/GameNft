@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-// import logo from '../../assets/\';
+import logo from '../../assets/logo.png';
 import './navbar.css';
 
 const Navbar = () => {
@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <div className="gpt3__navbar ">
       <div className="gpt3__navbar-links">
-        <div className="">
-          {/* <img src={logo} alt='' /> */}
-          <h1 className='neon'>THE AI CITY </h1>
+        <div className="gpt3__navbar-links_logo">
+          <img src={logo} alt='' />
+          {/* <h1 className='neon'>THE AI CITY </h1> */}
         </div>
         
       </div>

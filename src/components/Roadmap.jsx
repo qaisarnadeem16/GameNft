@@ -120,20 +120,23 @@ const Roadmap = () => {
                             <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2023 Q3 </h2>
 
                             <li className="flex gap-10 items-center ">
-                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+                                <GiCrossFlare className='text-4xl text-red-700 ' />
+
 
                                 <h5 className="text-white text-lg font-bold text-center">Launch of staking platform   </h5>
                             </li>
 
                             <li className="flex gap-10 items-center ">
-                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+                                <GiCrossFlare className='text-4xl text-red-700 ' />
+
                                 <h5 className="text-white text-lg font-bold text-center">Launch of farming platform  </h5>
                             </li>
                             <li className="flex gap-10 items-center ">
-                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+                                <GiCrossFlare className='text-4xl text-red-700 ' />
+
                                 <h5 className="text-white text-lg font-bold text-center">Season 2 launch  </h5>
                             </li>
-                            <li className="flex gap-10 items-center ">                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+                            <li className="flex gap-10 items-center ">                                                                <GiCrossFlare className='text-4xl text-red-700 ' />
 
                                 <h5 className="text-white text-lg font-bold text-center">new game announced   </h5>
                             </li>
@@ -149,23 +152,26 @@ const Roadmap = () => {
                             <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2022 Q4 </h2>
 
                             <li className="flex gap-10 items-center ">
-                                <GiCrossFlare className='text-4xl text-red-700 ' />
+                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+
 
                                 <h5 className="text-white text-lg font-bold text-center">GAME DEVLOPMENT  </h5>
                             </li>
 
-                            <li className="flex gap-10 items-center ">
-                                <GiCrossFlare className='text-4xl text-red-700 ' />
+                            <li className="flex gap-10 items-center ">                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+
 
                                 <h5 className="text-white text-lg font-bold text-center">GAME STORY DEVLOPMENT  </h5>
                             </li>
                             <li className="flex gap-10 items-center ">
-                                <GiCrossFlare className='text-4xl text-red-700 ' />
+                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+
 
                                 <h5 className="text-white text-lg font-bold text-center">INTEGRATION OF AI </h5>
                             </li>
                             <li className="flex gap-10 items-center ">
-                                <GiCrossFlare className='text-4xl text-red-700 ' />
+                                <BsPatchCheckFill className='text-4xl text-green-700 ' />
+
 
                                 <h5 className="text-white text-lg font-bold text-center">CREATE NFTS  </h5>
                             </li>
@@ -188,12 +194,12 @@ const Roadmap = () => {
                         initial={{ bottom: '-100px' }}
                         whileInView={{ top: '2px' }}
                         transition={{ ...transition, type: 'tween' }} style={{ position: 'relative' }} className=" w-full md:p-5 pb-10 flex justify-center gap-4">
-                       <a href="https://twitter.com/TheAiCity">
-                       <BsTwitter className='text-white text-4xl' />
-                       </a>
-                       <a href="https://t.me/TheAiCity"><BsTelegram className='text-white text-4xl' /></a> 
-                       <a href="https://t.me/TheAiCity_Chat"><BsTelegram className='text-white text-4xl' /></a> 
-                       <a href="TheAiCityOfficial@gmail.com"> <MdEmail className='text-white text-4xl' /></a>
+                        <a href="https://twitter.com/TheAiCity">
+                            <BsTwitter className='text-white text-4xl' />
+                        </a>
+                        <a href="https://t.me/TheAiCity"><BsTelegram className='text-white text-4xl' /></a>
+                        <a href="https://t.me/TheAiCity_Chat"><BsTelegram className='text-white text-4xl' /></a>
+                        <a href="TheAiCityOfficial@gmail.com"> <MdEmail className='text-white text-4xl' /></a>
                     </motion.div>
                 </div>
             </div>
