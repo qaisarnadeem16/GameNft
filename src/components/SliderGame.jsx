@@ -4,12 +4,13 @@ import Slider from "react-slick";
 import game1 from '../assets/game3.mp4'
 import game2 from '../assets/game2.mp4'
 import game3 from '../assets/game.mp4'
+import { motion } from 'framer-motion'
 
 
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
-        <div className=' text-[rgba(0,255,255,0.5)] text-[3rem] z-10 absolute left-[-15px] md:top-[49%] top-[26%] '
+        <div className=' text-[rgba(0,255,255,0.5)] text-[3rem] z-10 absolute left-[-15px] md:top-[49%] top-[27%] '
             onClick={onClick} >  <BiLeftArrow />
         </div>
     );
@@ -17,13 +18,14 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-        <div className=' text-[rgba(0,255,255,0.5)] text-[3rem] z-10 absolute right-[-15px]  md:top-[49%] top-[26%] '
+        <div className=' text-[rgba(0,255,255,0.5)] text-[3rem] z-10 absolute right-[-15px]  md:top-[49%] top-[27%] '
             onClick={onClick} >  <BiRightArrow />
         </div>
     );
 }
 
 const SliderGame = () => {
+    const transition = { type: 'spring', duration: 1 }
     var settings = {
         dots: true,
         infinite: false,
@@ -60,9 +62,13 @@ const SliderGame = () => {
     };
     return (
         <>
-            <div className="sliderGame px-4 " id='game'>
+            <div className="slider px-4" id='game'>
+                <motion.div
+                    initial={{ bottom: '-100px' }}
+                    whileInView={{ top: '2px' }}
+                    transition={{ ...transition, type: 'tween' }} style={{ position: 'relative' }}>
                     <div className="flex justify-center p-7">
-                        <div className="bg-gray-700 rounded-lg shadow p-3 opacity-90 ">
+                        <div className="bg-gray-700 rounded-lg  opacity-90 main-div main-div1">
                             <h1 className="text-white text-3xl text-center font-black ">GAMEPLAY</h1>
                         </div>
                     </div>
@@ -74,15 +80,15 @@ const SliderGame = () => {
                                     <video src={game1} loop autoplay></video>
                                 </div>
                                 <div className="text">
-                                    <div className="py-4 flex justify-center"><h2 className="text-white bg-gray-800 rounded-md px-2 shadow text-xl font-bold text-center p-2 ">ANIMO BATTLE </h2></div>
-                                    <div className="bg-gray-800 rounded-[1rem] shadow opacity-100">
+                                    <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">ANIMO BATTLE </h2></div>
+                                    <div className="main-div main-div2">
 
                                         <p className="p-3 text-white">
                                             GAME MODE: THE ANIMO BATTLE IS HIGHLY GRAPHIC QUALITY IN METAVERSE AI GAMES. YOU CAN SELECT PLAYER AND IMPORT YOUR CHARECTOR IN THE BATTLE TO START MATCHING IN GAME.
                                         </p>
                                     </div>
 
-                                    <div className="bg-gray-800 rounded-[1rem] mt-7 shadow">
+                                    <div className="main-div main-div2 !mt-7 ">
                                         <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :- </h2>
                                         <p className="p-3 text-white">
                                             ANIMO BATTLE AI GAME IS USING WITH HIGHLY FUNCTIONALITY WITH 3D GAME IN METAVERSE IN BATTLE, ANYONE CHARRCTOR CAN MATCHING THE GAME AND GET A VICTORY.
@@ -99,15 +105,15 @@ const SliderGame = () => {
                                     <video src={game2} loop autoplay></video>
                                 </div>
                                 <div className="text">
-                                    <div className="py-4 flex justify-center"><h2 className="text-white bg-gray-800 rounded-md px-2 shadow text-xl font-bold text-center p-2 ">SUPPER HERO IN AI CITY </h2></div>
-                                    <div className="bg-gray-800 rounded-[1rem] shadow opacity-100">
+                                    <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">SUPPER HERO IN AI CITY </h2></div>
+                                    <div className="main-div main-div2">
 
                                         <p className="p-3 text-white">
                                             GAME MODE: THE HERO IN AI CITY IN THE JOURNIESS WITH DIFFERNT MODE WITH RARE CHARECTOR PLAYER CAN CHOOSE A RARE AND LEGENDARY CHARECTOR IN THIS BATTLE, THIS MODE IS ONLY MATCHING THOSE WHO HAVE MOST LEVELED AND COMPLETED ATLEAST 20 LEVELS.
                                         </p>
                                     </div>
 
-                                    <div className="bg-gray-800 rounded-[1rem] mt-7 shadow">
+                                    <div className="main-div main-div2 !mt-7 ">
                                         <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">                                        UTILITY OF GAME :-
                                         </h2>
                                         <p className="p-3 text-white">
@@ -124,18 +130,18 @@ const SliderGame = () => {
                                     <video src={game3} loop autoplay></video>
                                 </div>
                                 <div className="text">
-                                    <div className="py-4 flex justify-center"><h2 className="text-white bg-gray-800 rounded-md px-2 shadow text-xl font-bold text-center p-2 ">BATTLE SQUAD </h2></div>
-                                    <div className="bg-gray-800 rounded-[1rem] shadow opacity-100">
+                                    <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">BATTLE SQUAD </h2></div>
+                                    <div className="main-div main-div2">
 
                                         <p className="p-3 text-white">
-                                        GAME MODE: THIS GAME IS PERFORMING WITH MULTIPLE PLAYER, CHOOSING CHARACTERS AND MATCHING WITH YOUR COMMUNITY AND FRIENDS, IN THIS GAME HAVE DIVIED INTO TWO MODES ONE IS THE BATTLE WITH YOUR ENEMIES ( OPPONENT TEAM ). SECOND ONE IS MVP THOSE WHO HAVE REACHED THE LEVEL HE WILL GET THE ENTRIES TO LEVEL UP IN YOUR CHARECTOR.
+                                            GAME MODE: THIS GAME IS PERFORMING WITH MULTIPLE PLAYER, CHOOSING CHARACTERS AND MATCHING WITH YOUR COMMUNITY AND FRIENDS, IN THIS GAME HAVE DIVIED INTO TWO MODES ONE IS THE BATTLE WITH YOUR ENEMIES ( OPPONENT TEAM ). SECOND ONE IS MVP THOSE WHO HAVE REACHED THE LEVEL HE WILL GET THE ENTRIES TO LEVEL UP IN YOUR CHARECTOR.
                                         </p>
                                     </div>
 
-                                    <div className="bg-gray-800 rounded-[1rem] mt-7 shadow">
+                                    <div className="main-div main-div2 !mt-7 ">
                                         <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :-</h2>
                                         <p className="p-3 text-white">
-                                        IN This battle, the background & the opposite team will play In Real, but it will be okay in virtual in Metaverse game. And All the cities shown in the game this are situated in real place.
+                                            IN This battle, the background & the opposite team will play In Real, but it will be okay in virtual in Metaverse game. And All the cities shown in the game this are situated in real place.
                                         </p>
                                     </div>
                                 </div>
@@ -144,8 +150,9 @@ const SliderGame = () => {
 
 
                     </Slider>
-                </div>
-            
+                </motion.div>
+            </div>
+
 
         </>
     )

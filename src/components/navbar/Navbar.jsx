@@ -22,6 +22,8 @@ const Navbar = () => {
               <p><a href="#what">WHAT IN GAME</a></p>
               <p><a href="#token">UTILITY OF TOKENS</a></p>
               <p><a href="#roadmap">ROADMAP</a></p>
+              <p><a href="#team">Team</a></p>
+
 
         </div>
       <div className="gpt3__navbar-menu">
@@ -37,6 +39,7 @@ const Navbar = () => {
               <p><a href="#what">WHAT IN GAME</a></p>
               <p><a href="#token">UTILITY OF TOKENS</a></p>
               <p><a href="#roadmap">ROADMAP</a></p>
+              <p><a href="#team">Team</a></p>
             </div>
           
           </div>

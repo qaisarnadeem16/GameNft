@@ -6,6 +6,7 @@ import SliderGame from "./components/SliderGame";
 import WhatGame from "./components/WhatGame";
 import Tokens from "./components/Tokens";
 import Roadmap from "./components/Roadmap";
+import Team from "./components/Team";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <WhatGame/>
       <Tokens/>
       <Roadmap/>
+      <Team/>
     </>
 
   );
