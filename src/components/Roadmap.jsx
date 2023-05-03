@@ -24,7 +24,7 @@ const Roadmap = () => {
                         whileInView={{ top: '2px' }}
                         transition={{ ...transition, type: 'tween' }} style={{ position: 'relative' }} className="md:w-1/4 w-full md:p-5 p-3">
                         <div className="main-div main-div2 !mt-7 shadow p-3 flex flex-col gap-5">
-                            <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2023 Q2 </h2>
+                            <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2023 Q1 </h2>
 
                             <li className="flex gap-10 items-center ">
                                 <BsPatchCheckFill className='text-4xl text-green-700 ' />
@@ -70,7 +70,7 @@ const Roadmap = () => {
                         whileInView={{ top: '2px' }}
                         transition={{ ...transition, type: 'tween' }} style={{ position: 'relative' }} className="md:w-1/4 w-full md:p-5 p-3">
                         <div className="main-div main-div2 !mt-7 shadow2 p-3 flex flex-col gap-5">
-                            <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2023 Q4 </h2>
+                            <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2023 Q2 </h2>
 
                             <li className="flex gap-10 items-center ">
                                 <GiCrossFlare className='text-4xl text-red-700 ' />
@@ -149,7 +149,7 @@ const Roadmap = () => {
                         whileInView={{ top: '2px' }}
                         transition={{ ...transition, type: 'tween' }} style={{ position: 'relative' }} className="md:w-1/4 w-full md:p-5 p-3">
                         <div className="main-div main-div2  !mt-7 shadow2 p-3 flex flex-col gap-5">
-                            <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2022 Q1 </h2>
+                            <h2 className="text-[rgba(0,255,255,0.5)] text-2xl font-bold tracking-widest text-center p-2 ">2022 Q4 </h2>
 
                             <li className="flex gap-10 items-center ">
                                 <BsPatchCheckFill className='text-4xl text-green-700 ' />

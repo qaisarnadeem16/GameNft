@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import game1 from '../assets/game3.jpeg'
 import game2 from '../assets/game2.jpeg'
 import game3 from '../assets/game1.jpeg'
+import game4 from '../assets/game4.jpeg'
 
 import { motion } from 'framer-motion'
 
@@ -11,7 +12,7 @@ import { motion } from 'framer-motion'
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
-        <div className=' text-[rgba(255,255,0,0.79)] text-[3rem] z-10 absolute left-[-5px] md:top-[49%] top-[28%] '
+        <div className=' text-[rgba(255,255,0,0.79)] text-[3rem] z-10 absolute left-[-5px] md:top-[49%] top-[32%]  '
             onClick={onClick} >  <BiLeftArrow />
         </div>
     );
@@ -19,7 +20,7 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-        <div className=' text-[rgba(255,255,0,0.79)] text-[3rem] z-10 absolute right-[-5px]  md:top-[49%] top-[28%] '
+        <div className=' text-[rgba(255,255,0,0.79)] text-[3rem] z-10 absolute right-[-5px]  md:top-[49%] top-[32%] '
             onClick={onClick} >  <BiRightArrow />
         </div>
     );
@@ -75,6 +76,30 @@ const SliderGame = () => {
                     </div>
 
                     <Slider {...settings}>
+                    <div className='relative'>
+                            <div className='md:mx-6 '>
+                                <div className="rounded-md shadow w-full  overflow-hidden">
+                                    <img src={game4} alt='' className='' />
+                                </div>
+                                <div className="text">
+                                    <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">CITY CAR </h2></div>
+                                    <div className="main-div main-div2">
+
+                                        <p className="p-3 text-white">
+                                        GAME MODE: THE CITY IS HIGHLY GRAPHIC QUALITY IN METAVERSE GAMES. YOU CAN SELECT PLAYER AND RACE WITH AI CAR IN THE CITY CAR..
+                                        </p>
+                                    </div>
+
+                                    <div className="main-div main-div2 !mt-7 ">
+                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :- </h2>
+                                        <p className="p-3 text-white">
+                                        THIS GAME IS PERFORMING IN 3D IN VIRTUAL CITY, AND THE CITY & CAR IS DESIGNED IN AI WITH INCREDIBLE CHARECTOR.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div>
                             <div className='md:mx-6 '>
                                 <div className="rounded-md shadow w-full  overflow-hidden">
