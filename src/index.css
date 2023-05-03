@@ -52,7 +52,7 @@
 .sliderGame {
   background: rgba(0, 0, 0, 0.5) url(./assets//cyber.jpg) no-repeat;
   /* background-position: center; */
-  background-size: cover;
+  background-size: contain;
 }
 
 

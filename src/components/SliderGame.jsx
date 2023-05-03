@@ -1,16 +1,17 @@
 import React from 'react'
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi'
 import Slider from "react-slick";
-import game1 from '../assets/game3.mp4'
-import game2 from '../assets/game2.mp4'
-import game3 from '../assets/game.mp4'
+import game1 from '../assets/game3.jpeg'
+import game2 from '../assets/game2.jpeg'
+import game3 from '../assets/game1.jpeg'
+
 import { motion } from 'framer-motion'
 
 
 function SampleNextArrow(props) {
     const { onClick } = props;
     return (
-        <div className=' text-[rgba(0,255,255,0.5)] text-[3rem] z-10 absolute left-[-15px] md:top-[49%] top-[27%] '
+        <div className=' text-[rgba(255,255,0,0.79)] text-[3rem] z-10 absolute left-[-5px] md:top-[49%] top-[28%] '
             onClick={onClick} >  <BiLeftArrow />
         </div>
     );
@@ -18,7 +19,7 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
     const { onClick } = props;
     return (
-        <div className=' text-[rgba(0,255,255,0.5)] text-[3rem] z-10 absolute right-[-15px]  md:top-[49%] top-[27%] '
+        <div className=' text-[rgba(255,255,0,0.79)] text-[3rem] z-10 absolute right-[-5px]  md:top-[49%] top-[28%] '
             onClick={onClick} >  <BiRightArrow />
         </div>
     );
@@ -76,8 +77,8 @@ const SliderGame = () => {
                     <Slider {...settings}>
                         <div>
                             <div className='md:mx-6 '>
-                                <div className="rounded-md  shadow w-full overflow-hidden">
-                                    <video src={game1} loop autoplay></video>
+                                <div className="rounded-md shadow w-full  overflow-hidden">
+                                    <img src={game1} alt='' className='' />
                                 </div>
                                 <div className="text">
                                     <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">ANIMO BATTLE </h2></div>
@@ -101,8 +102,8 @@ const SliderGame = () => {
 
                         <div>
                             <div className='md:mx-6 '>
-                                <div className="rounded-md  shadow w-full overflow-hidden">
-                                    <video src={game2} loop autoplay></video>
+                                <div className="rounded-md shadow w-full  overflow-hidden">
+                                    <img src={game2} alt='' className='' />
                                 </div>
                                 <div className="text">
                                     <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">SUPPER HERO IN AI CITY </h2></div>
@@ -126,8 +127,8 @@ const SliderGame = () => {
 
                         <div>
                             <div className='md:mx-6 '>
-                                <div className="rounded-md  shadow w-full overflow-hidden">
-                                    <video src={game3} loop autoplay></video>
+                            <div className="rounded-md shadow w-full  overflow-hidden">
+                                    <img src={game3} alt='' className='' />
                                 </div>
                                 <div className="text">
                                     <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">BATTLE SQUAD </h2></div>

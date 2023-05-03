@@ -1,5 +1,5 @@
 import React from 'react'
-import topimg from '../assets/new1.png'
+import topimg from '../assets/WhatsApp Image 2023-05-02 at 10.16.05 PM1.jpeg'
 import Navbar from './navbar/Navbar'
 
 import { motion } from 'framer-motion'
