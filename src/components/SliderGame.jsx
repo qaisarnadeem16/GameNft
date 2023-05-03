@@ -91,7 +91,7 @@ const SliderGame = () => {
                                     </div>
 
                                     <div className="main-div main-div2 !mt-7 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :- </h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :- </h2>
                                         <p className="p-3 text-white">
                                         THIS GAME IS PERFORMING IN 3D IN VIRTUAL CITY, AND THE CITY & CAR IS DESIGNED IN AI WITH INCREDIBLE CHARECTOR.
                                         </p>
@@ -115,7 +115,7 @@ const SliderGame = () => {
                                     </div>
 
                                     <div className="main-div main-div2 !mt-7 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :- </h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :- </h2>
                                         <p className="p-3 text-white">
                                             ANIMO BATTLE AI GAME IS USING WITH HIGHLY FUNCTIONALITY WITH 3D GAME IN METAVERSE IN BATTLE, ANYONE CHARRCTOR CAN MATCHING THE GAME AND GET A VICTORY.
                                         </p>
@@ -140,7 +140,7 @@ const SliderGame = () => {
                                     </div>
 
                                     <div className="main-div main-div2 !mt-7 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">                                        UTILITY OF GAME :-
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">                                        UTILITY OF GAME :-
                                         </h2>
                                         <p className="p-3 text-white">
                                             IN THIS GAME WE HAVE DEVELOPED BY DIFFERENT HEROES AND We have ADDED SUCH seen how the real PLAYERS & Monsters fight with each other.
@@ -165,7 +165,7 @@ const SliderGame = () => {
                                     </div>
 
                                     <div className="main-div main-div2 !mt-7 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :-</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">UTILITY OF GAME :-</h2>
                                         <p className="p-3 text-white">
                                             IN This battle, the background & the opposite team will play In Real, but it will be okay in virtual in Metaverse game. And All the cities shown in the game this are situated in real place.
                                         </p>
