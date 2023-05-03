@@ -84,14 +84,14 @@ const SliderNFT = () => {
                                 <div className="text">
                                     <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">WIZO: RARE PLAYER</h2></div>
                                     <div className="main-div main-div2">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                         <p className="p-3 text-white">
                                             LEGS COMBOT - HIHGLY STRONG ON LEGS POWER , ABLE TO USE IN BLOCKING , AND INCREDIBLE ATTACK TO ENEMY
                                         </p>
                                     </div>
 
                                     <div className="main-div main-div2 !mt-10 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                         <p className="p-3 text-white">
                                             POWER ON LEGS - This Character is highly skilled With Legs and powerenergy on legs
                                         </p>
@@ -109,14 +109,14 @@ const SliderNFT = () => {
                                 <div className="text">
                                     <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">Blitz Boo : Medium Player</h2></div>
                                     <div className="main-div main-div2 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                         <p className="p-3 text-white">
                                             Power Fighter - HIGHLY STRONG ON POWERS, THIS CHARECTOR HAVE LOTS OF POWERS LIKE STNERGITIC POWER WHICH IS BLAST TO ANYONE
                                         </p>
                                     </div>
 
                                     <div className="main-div main-div2 !mt-10 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                         <p className="p-3 text-white">
                                             DIFFERENT TYPES OF POWERS: This Charector Is Highly Dedicated With Lots of powering, He Can
                                             Able To ATTACT with Supper powers with different mode.
@@ -134,14 +134,14 @@ const SliderNFT = () => {
                                 <div className="text">
                                     <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-lg font-bold text-center p-2 ">FLORAL LEO : Legendary Player</h2></div>
                                     <div className="main-div main-div2">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                         <p className="p-3 text-white">
                                             FLYING BOOSTER - HIGHLY STRONG ON WINGS POWER, THIS CHARECTOR HAVE LOTS OF WINGS POWERS LIKE FLYING, MOUTH FIRE, WHICH IS BURNED TO ANYTHING
                                         </p>
                                     </div>
 
                                     <div className="main-div main-div2 !mt-10  ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                         <p className="p-3 text-white">
                                             POWERS IN WINGS: This Charector Is Highly Dedicated With Lots of powering in wings, He Can
                                             Able To ATTACT with wings with different MODE.
@@ -161,14 +161,14 @@ const SliderNFT = () => {
                                 <div className="text">
                                     <div className="py-4 flex justify-center"><h2 className="text-white main-div main-div1 bg-gray-800 rounded-md  text-xl font-bold text-center p-2 ">Jellite killi : MYTHIC PLAYER</h2></div>
                                     <div className="main-div main-div2 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">SPECIAL IN CHARECTOR</h2>
                                         <p className="p-3 text-white">
                                             DRAG To ANYONE - HIGHLY Dedicated to drag any enemy using magical power, THIS CHARECTOR HAVE LOTS OF POWERS LIKE DRAGING, which is used to kill the monster in Metaverse game.
                                         </p>
                                     </div>
 
                                     <div className="main-div main-div2 !mt-10 ">
-                                        <h2 className="text-[rgba(0,255,255,0.5)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
+                                        <h2 className="text-[rgba(0,255,255,0.91)] text-sm font-semibold tracking-widest pt-3 pl-3 ">ABILITY:-</h2>
                                         <p className="p-3 text-white">
                                             DRAGING: This Charector Is Highly Dedicated With powering in DRAGING, He can catch anyone by the long
                                         </p>
